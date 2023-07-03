@@ -11,7 +11,7 @@
 <body>
 	<h1>Please enter your details</h1>
 	<!-- Login Form begins -->
-	<form action="login">
+	<form action="login" method="post">
 		Username: <input type="text" name="username" value="${param.username}" />
 		<br> Password: <input type="password" name="password"
 			value="${param.password}" /> <br> <input type="submit"
